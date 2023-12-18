@@ -19,4 +19,4 @@ Welcome to the Tic Tac Toe game! This is a simple console-based implementation o
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/tushimittal/tic-tac-toe.git
+file:///C:/XOXO%20game/XOXO.html
