@@ -39,7 +39,6 @@ const cells = Array.from({ length: 9 }, () => ({ active: false, symbol: '' }));
         function playSound() {
             soundEffect.play();
         }
-
         const checkForWinner = () => {
             const lines = [
                 [0, 1, 2],
@@ -51,7 +50,6 @@ const cells = Array.from({ length: 9 }, () => ({ active: false, symbol: '' }));
                 [0, 4, 8],
                 [2, 4, 6]
             ];
-
             for (const line of lines) {
                 const [a, b, c] = line;
                 if (cells[a].active && cells[b].active && cells[c].active &&
